@@ -17,6 +17,7 @@
 
 
         div.imgChange{
+            display: inline-block;
             background: url('img\\Сларк.jpg');
             width: 220px; 
             height: 125px;
@@ -26,12 +27,17 @@
             background: url('img\\SlarkPage\\Сларк_глазастик.jpg');
         }
         img{
-            margin: 20px 20px 20px 50px;
+            margin: 0px 20px -30px 50px;
             width: 100px;
             height: 100px;
+            float:left;
         }
-        text{
-            margin: 100px 100px 10px 10px;
+        .infoSpels{
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            align-items: center;
         }
 
        </style>
@@ -41,12 +47,26 @@
     <h1>Slark</h1>
     </div>
 
-    <div class="imgChange"></div> 
-    <img src="img\\SlarkPage\\Pounce_icon.jpg"><br>
-    <img src="img\\SlarkPage\\Dark_Pact_icon.jpg"><br>
-    <img src="img\\SlarkPage\\Essence_Shift_icon.jpg"><br>
-    <img src="img\\SlarkPage\\slark_shadow_dance.jpg"><br>
-    <img src="img\\SlarkPage\\shard.jpg"><br>
+    <div class="imgChange"></div><div class="fish"></div>
+    <p class="infoSpels"><img src="img\\SlarkPage\\Pounce_icon.jpg">
+    Рыба прыгает, если попадает в противника то вяжет его на месте,<br>если мимо то тимейты смеются и говорят что паунс в окно, типо прыгнул в окно
+    </p><br>
+    
+    <p class="infoSpels"><img src="img\\SlarkPage\\Dark_Pact_icon.jpg">
+    Ну он с задержкой применяется, типо сначала ничего <br> но потом себя калечит немного зато сбрасывает всякую гадость
+    </p><br>
+    
+    <p class="infoSpels"><img src="img\\SlarkPage\\Essence_Shift_icon.jpg">
+    Когда бьешь ты сильнее враги слабее
+    </p><br>
+    
+    <p class="infoSpels"><img src="img\\SlarkPage\\slark_shadow_dance.jpg">
+    Теряешься
+    </p><br>
+    
+    <p class="infoSpels"><img src="img\\SlarkPage\\shard.jpg">
+    Ставишь теряешься
+    </p><br>
 
 
 </body>
